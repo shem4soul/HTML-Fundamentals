@@ -89,3 +89,19 @@ aside {
 body {
   /* background-color: oranged; */
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  /* color: #1098ad; */
+}
+
+article p:last-child {
+  color: red;
+}
